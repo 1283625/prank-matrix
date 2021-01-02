@@ -5,7 +5,7 @@ def EnterOS():
 	os.system('cls')
 	os.system('clear')
 	while True:
-		os_select = input('Выберите ОС:\n1.Termux\n2.Windows')
+		os_select = input('Выберите ОС:\n1.Termux\n2.Windows\n>')
 		if os_select == '1':
 			print('Запускаем скрипт...')
 			time.sleep(0.6)
