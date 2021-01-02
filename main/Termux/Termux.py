@@ -15,9 +15,9 @@ n = ['10101001101110000101010111101100000110101000011100101000001011110101111101
      '1000011111001010110000110101001010101101001011110010101010010101011100101111101']
 
 def main():
-     	os.system('clear')
-	while True:
-		randomn = random.choice(n)
-		print(randomn)
-		time.sleep(0.2)
+     os.system('clear')
+     while True:
+          randomn = random.choice(n)
+          print(randomn)
+          time.sleep(0.2)
 main()
